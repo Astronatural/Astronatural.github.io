@@ -160,12 +160,12 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #9564a1;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #467370;
+  color: #6f4c78;
   text-decoration: underline;
 }
 
@@ -7086,6 +7086,8 @@ button.bg-black:focus {
     align-self: stretch !important;
   }
 }
+
+
 @media (min-width: 992px) {
   .flex-lg-row {
     flex-direction: row !important;
@@ -7223,6 +7225,8 @@ button.bg-black:focus {
     align-self: stretch !important;
   }
 }
+
+
 @media (min-width: 1200px) {
   .flex-xl-row {
     flex-direction: row !important;
@@ -7360,6 +7364,8 @@ button.bg-black:focus {
     align-self: stretch !important;
   }
 }
+
+
 .float-left {
   float: left !important;
 }
@@ -8464,7 +8470,9 @@ button.bg-black:focus {
 .mx-sm-auto {
     margin-left: auto !important;
   }
-}
+} /* end min-width 576px */
+
+
 @media (min-width: 768px) {
   .m-md-0 {
     margin: 0 !important;
@@ -8897,7 +8905,8 @@ button.bg-black:focus {
 .mx-md-auto {
     margin-left: auto !important;
   }
-}
+} /*  end min-width 768px */
+
 @media (min-width: 992px) {
   .m-lg-0 {
     margin: 0 !important;
@@ -9330,7 +9339,8 @@ button.bg-black:focus {
 .mx-lg-auto {
     margin-left: auto !important;
   }
-}
+} /* end min-width 992px */
+
 @media (min-width: 1200px) {
   .m-xl-0 {
     margin: 0 !important;
@@ -9763,7 +9773,8 @@ button.bg-black:focus {
 .mx-xl-auto {
     margin-left: auto !important;
   }
-}
+} /* end min-width 1.2k px */
+
 .stretched-link::after {
   position: absolute;
   top: 0;
@@ -9823,6 +9834,8 @@ button.bg-black:focus {
     text-align: center !important;
   }
 }
+
+
 @media (min-width: 768px) {
   .text-md-left {
     text-align: left !important;
@@ -9836,6 +9849,8 @@ button.bg-black:focus {
     text-align: center !important;
   }
 }
+
+
 @media (min-width: 992px) {
   .text-lg-left {
     text-align: left !important;
@@ -9849,6 +9864,8 @@ button.bg-black:focus {
     text-align: center !important;
   }
 }
+
+
 @media (min-width: 1200px) {
   .text-xl-left {
     text-align: left !important;
@@ -9861,7 +9878,9 @@ button.bg-black:focus {
   .text-xl-center {
     text-align: center !important;
   }
-}
+} /* end @media 1.2k px */
+
+
 .text-lowercase {
   text-transform: lowercase !important;
 }
@@ -10112,9 +10131,12 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
-}
+} /* end @media print */
+
+
 body {
   letter-spacing: 0.0625em;
+  
 }
 
 #mainNav {
@@ -10179,15 +10201,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #9564a1;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #9564a1;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #9564a1;
   }
 }
 
@@ -10257,16 +10279,24 @@ body {
   margin-bottom: 5rem;
 }
 
-.projects-section {
-  padding: 10rem 0;
+.test {
+  background-color: #fe9263;
+  padding: 10rem 0; /* color is ignored, padding is not... */
 }
+
+/* .projects-section {
+  background-color: #fe9263;
+  padding: 10rem 0; /* color is ignored, padding is not... 
+} */
+
 .projects-section .featured-text {
   padding: 2rem;
 }
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #9564a1;
   }
 }
 .projects-section .project-text {
@@ -10278,7 +10308,7 @@ body {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #9564a1;
     border-width: 0.25rem;
     width: 30%;
   }
@@ -10308,7 +10338,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #9564a1;
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
@@ -10317,7 +10347,7 @@ body {
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #9564a1;
   border-width: 0.25rem;
   width: 3rem;
 }
