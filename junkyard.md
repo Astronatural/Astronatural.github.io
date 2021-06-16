@@ -8,3 +8,5 @@ template colors:
 
 let template teal = #64a19d;
 let template hover teal = #467370;
+
+let collapsed menu text color = #212529
