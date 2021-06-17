@@ -10280,7 +10280,8 @@ body {
 }
 
 .test {
-  background-color: #fe9263;
+  /* background-color: #fe9263; */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #a62f05);
   padding: 10rem 0; /* color is ignored, padding is not... */
 }
 
