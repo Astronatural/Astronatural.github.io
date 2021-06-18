@@ -10,3 +10,8 @@ let template teal = #64a19d;
 let template hover teal = #467370;
 
 let collapsed menu text color = #212529
+
+to do:
+fix spacing on last two projects in mobile view.
+switch up some fonts?
+smooth out the background image transition above contact info.

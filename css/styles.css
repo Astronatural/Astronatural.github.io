@@ -197,9 +197,15 @@ figure {
   margin: 0 0 1rem;
 }
 
+i {
+ font-size: 800%;
+ color: #fe9263;
+}
+
 img {
   vertical-align: middle;
-  border-style: none;
+  border-style: dotted;
+  border-width: medium;
 }
 
 svg {
