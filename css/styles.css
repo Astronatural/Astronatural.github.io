@@ -10277,6 +10277,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
+  padding-bottom: 10rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
@@ -10285,14 +10286,10 @@ body {
 
 .test {
   /* background-color: #fe9263; */
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #a62f05);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), #a62f05, #4e2a2a);
   padding: 10rem 0; /* color is ignored, padding is not... */
 }
 
-/* .projects-section {
-  background-color: #fe9263;
-  padding: 10rem 0; /* color is ignored, padding is not... 
-} */
 
 .projects-section .featured-text {
   padding: 2rem;
@@ -10321,13 +10318,12 @@ body {
 
 
 .contact-section {
-  padding: 10rem 0;
+  padding: 20rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/RadSunSet.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  padding-top: 5rem;
 }
 .contact-section .card {
   border: 0;
